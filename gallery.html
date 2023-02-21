@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/icon.png" type="image/icon">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Fancy Box-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+
+        <!--=============== ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+
+        <title>Gallery</title>
+    </head>
+    <body>
+
+        <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+
+            <!--======== Strat Logo ===========-->
+            <a href="index.html" class="nav__logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="137" height="54" viewBox="0 0 137 54">
+                    <g id="Group_51" data-name="Group 51" transform="translate(164 1598)">
+                      <path id="logo" d="M0,0H45V53.594H0Z" transform="translate(-164 -1597.594)" fill="rgba(255,255,255,0)"/>
+                      <text id="Pearl" transform="translate(-116 -1567)" font-size="29" font-family="PlayfairDisplay-Regular, Playfair Display"><tspan x="0" y="0">Pearl</tspan></text>
+                      <text id="Resort" transform="translate(-102 -1551)" font-size="15" font-family="MicrosoftSansSerif, Microsoft Sans Serif" letter-spacing="0.4em"><tspan x="0" y="0">Resort</tspan></text>
+                      <g id="Group_50" data-name="Group 50" transform="translate(12 -40)">
+                        <path id="Union_10" data-name="Union 10" d="M5.224,31.589h9.092A30.379,30.379,0,0,0,2.13,21.657a3.748,3.748,0,0,1-2.125-3.6,4.243,4.243,0,0,1,.044-.437,3.652,3.652,0,0,1,2.31-2.973,4.293,4.293,0,0,1-.112-3.988A3.209,3.209,0,0,1,5.3,8.781,4.149,4.149,0,0,1,6.382,4.99,2.952,2.952,0,0,1,9.81,4.424a3.745,3.745,0,0,1,2.14-3.137,2.983,2.983,0,0,1,3.389.819A3.285,3.285,0,0,1,18.282,0a3.286,3.286,0,0,1,2.942,2.105,2.985,2.985,0,0,1,3.39-.819,3.746,3.746,0,0,1,2.139,3.137,2.954,2.954,0,0,1,3.429.566,4.148,4.148,0,0,1,1.078,3.792,3.209,3.209,0,0,1,3.055,1.882,4.293,4.293,0,0,1-.112,3.988,3.652,3.652,0,0,1,2.31,2.973c.022.146.037.292.045.437a3.75,3.75,0,0,1-2.126,3.6,30.379,30.379,0,0,0-12.185,9.932H31.34c0,4.154-5.846,7.521-13.058,7.521S5.224,35.743,5.224,31.589Z" transform="translate(-171.782 -1550.353)" fill="rgba(255,255,255,0)" stroke="#ffa51e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                        <path id="Union_9" data-name="Union 9" d="M.446,25.953c0-1.327,3.73-2.454,8.906-2.853a5.81,5.81,0,0,1-.394-2.12,5.88,5.88,0,0,1,.178-1.444A5.447,5.447,0,0,1,9.91,17.8a4.775,4.775,0,0,1,1.176-1.212,4.114,4.114,0,0,1,1.585-.692,3.98,3.98,0,0,1,.765-.075,3.934,3.934,0,0,1,.859.095L16.124,0,14.295,15.916a4.159,4.159,0,0,1,1.6.752L21.07,2.261,15.895,16.667A4.842,4.842,0,0,1,17.032,17.9L24.768,6.022,17.032,17.9a5.5,5.5,0,0,1,.723,1.7l9.417-8.254L17.754,19.6a5.939,5.939,0,0,1,.161,1.376,5.812,5.812,0,0,1-.391,2.11c5.244.391,9.038,1.525,9.038,2.863,0,1.661-5.846,3.009-13.058,3.009S.446,27.615.446,25.953ZM0,11.35l9.136,8.186ZM2.242,6.022,9.91,17.8Zm3.7-3.761,5.146,14.327ZM11.048,0l1.624,15.9Z" transform="translate(-167.005 -1544.278)" fill="rgba(255,255,255,0)" stroke="#ffa51e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                      </g>
+                    </g>
+                </svg>                                      
+            </a>
+
+            <!--======== Strat Nav Menu ===========-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link"><i class="uil uil-estate"></i> Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="gallery.html" class="nav__link active">Gallery</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Rooms</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="faqs.html" target="blank" class="nav__link">FAQs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contactus.html" class="nav__link " target="blank">Contact Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="book.html" class=" nav__link btn__book" target="blank">Book</a> 
+                    </li> 
+                </ul>
+            <!--======== End Nav Menu ===========-->
+
+
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+        <main class="main">
+             <!--==================== GALLERY ====================-->
+             <section class=" section" id="">
+                <div class="container-fluid">
+                    <div class="row mt-4">
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/1.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/1.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/2.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/2.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/3.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/3.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/4.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/4.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/5.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/5.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/6.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/6.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/7.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/7.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/8.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/8.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/9.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/9.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/10.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/10.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/11.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/11.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/12.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/12.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/13.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/13.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/14.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/14.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/15.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/15.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/18.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/18.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/16.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/16.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                        <div class="item_gallery col-sm-6 col-md-4 mb-3">
+                            <a href="assets/img/gallery/17.jpg" class="fancybox " data-fancybox="gallery1">
+                                <img src="assets/img/gallery/17.jpg" alt="" width="100%" height="100%">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            
+        </main>
+
+          <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Discover</h3>
+                        <p class="footer__description">Travel you choose the <br> destination, 
+                            we offer you the <br> experience.
+                        </p>
+                        <!-- SOCIAL-->
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--ABOUT US-->
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About </h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Site Map</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Emplyees</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Locations</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Partners</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="faqs.html" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="contactus.html" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 Pearl Resort. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
