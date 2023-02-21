@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129" height="60" viewBox="0 0 129 60">
+  <g id="Group_43" data-name="Group 43" transform="translate(79 1800)">
+    <path id="logo" d="M0,0H45V53.594H0Z" transform="translate(-79 -1793.594)" fill="rgba(255,255,255,0)"/>
+    <text id="Pearl" transform="translate(-19 -1769)" fill="#424c55" font-size="29" font-family="PlayfairDisplay-Regular, Playfair Display"><tspan x="0" y="0">Pearl</tspan></text>
+    <text id="Resort" transform="translate(-22 -1747)" fill="#424c55" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="0.4em"><tspan x="0" y="0">Resort</tspan></text>
+    <g id="Group_42" data-name="Group 42" transform="translate(-58.782 139.274)">
+      <g id="Group_41" data-name="Group 41" transform="translate(-16 -1925.627)">
+        <path id="Path_20" data-name="Path 20" d="M318.282,350a3.286,3.286,0,0,0-2.942,2.105,2.983,2.983,0,0,0-3.39-.819,3.746,3.746,0,0,0-2.14,3.138,2.954,2.954,0,0,0-3.429.566,4.151,4.151,0,0,0-1.079,3.791,3.208,3.208,0,0,0-3.054,1.883,4.29,4.29,0,0,0,.112,3.988,3.651,3.651,0,0,0-2.311,2.972,4.353,4.353,0,0,0-.045.437,3.75,3.75,0,0,0,2.125,3.6c2.5,1.114,10.314,5.134,14.168,13.38h3.967c3.854-8.246,11.664-12.266,14.168-13.38a3.75,3.75,0,0,0,2.125-3.6,4.356,4.356,0,0,0-.045-.437,3.651,3.651,0,0,0-2.311-2.972,4.29,4.29,0,0,0,.112-3.988,3.208,3.208,0,0,0-3.054-1.883,4.15,4.15,0,0,0-1.079-3.791,2.954,2.954,0,0,0-3.429-.566,3.746,3.746,0,0,0-2.14-3.138,2.983,2.983,0,0,0-3.39.819A3.286,3.286,0,0,0,318.282,350Z" transform="translate(-300 -350)" fill="#fff" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <path id="Path_21" data-name="Path 21" d="M526.117,1400c0,4.154-5.846,7.521-13.058,7.521S500,1404.154,500,1400Z" transform="translate(-510.777 -3294.038)" fill="#fff" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="13.058" cy="3.009" rx="13.058" ry="3.009" transform="translate(-10.777 -1897.422)" fill="#fff" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_1" data-name="Line 1" x1="13.735" y2="12.038" transform="translate(2.213 -1909.016)" fill="none" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_2" data-name="Line 2" x1="11.263" y2="17.299" transform="translate(2.282 -1914.345)" fill="none" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_3" data-name="Line 3" x1="7.565" y2="21.06" transform="translate(2.282 -1918.106)" fill="none" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_4" data-name="Line 4" x1="2.687" y2="23.389" transform="translate(2.213 -1920.367)" fill="none" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_5" data-name="Line 5" x2="13.436" y2="12.038" transform="translate(-11.223 -1909.016)" fill="none" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_6" data-name="Line 6" x2="11.263" y2="17.299" transform="translate(-8.981 -1914.345)" fill="none" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_7" data-name="Line 7" x2="7.565" y2="21.06" transform="translate(-5.283 -1918.106)" fill="none" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_8" data-name="Line 8" x2="2.389" y2="23.389" transform="translate(-0.175 -1920.367)" fill="none" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="4.479" cy="5.159" rx="4.479" ry="5.159" transform="translate(-2.266 -1904.545)" fill="#fff" stroke="#ffb042" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
